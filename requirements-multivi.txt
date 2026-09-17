@@ -1,0 +1,12 @@
+# MultiVI environment (separate from the main environment above due to a
+# dependency conflict). This environment was used only for the MultiVI baseline.
+#
+# NOTE: only scvi-tools' version has been directly confirmed from the actual
+# run logs (0.14.6). The remaining versions below are NOT yet confirmed with
+# a pip freeze from the scvi_cpu environment — replace this file with the
+# real freeze output before publishing the repository.
+
+scvi-tools==0.14.6
+
+# TODO: run inside the scvi_cpu environment and paste the full output here:
+#   pip freeze > requirements-multivi.txt
